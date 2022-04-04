@@ -1,4 +1,7 @@
-apply plugin: 'java'
+plugins {
+    id 'jacoco'
+    id 'java'
+}
 
 repositories {
     mavenCentral()
